@@ -22,13 +22,3 @@ if st.button("Generate Full Campaign"):
 if st.button("Save Campaign") and result:
     with open("campaign.txt", "w") as f:
         f.write(result)
-
-st.markdown("### 🛍 Product Description")
-st.write("section_1")
-
-st.markdown("### 📢 Ads")
-st.write("section_2")
-
-st.markdown("### 📧 Email")
-st.write("section_3")
-
